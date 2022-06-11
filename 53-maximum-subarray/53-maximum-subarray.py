@@ -4,7 +4,6 @@ class Solution:
         maxSum = nums[0]
         sum_ = 0
         for num in range(length):
-            print("start",maxSum)
             # sum_ = 0
             # for _num in range(num, length):
             #     sum_ += nums[_num]
