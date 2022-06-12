@@ -9,6 +9,8 @@ class Solution:
             nums1[i] = nums2[index]
             index +=1
             
+        # nums1 = sorted(nums1)
+            
         for i in range(length):
             for j in range(i+1,length):
                 if nums1[i]> nums1[j]:
